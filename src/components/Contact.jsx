@@ -17,9 +17,49 @@ const [form, setForm] = useState({
 
 const [loading, setLoading] = useState(false);
 
-const handleChange = (e) => {}
+const handleChange = (e) => {
+  const { name, value } = e.target;
 
-const handleSubmit = (e) => {}
+  setForm({ ...form, [name]: value })
+
+}
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  setLoading(true);
+
+//template_b4t5e8m
+//service_bj46wlv
+//KLAZm7R3fEsYvWyeA - name
+  emailjs.send(
+    'service_bj46wlv', 
+    'template_b4t5e8m',
+    {
+      from_name: form.name,
+      to_name: 'Chris',
+      from_email: form.email,
+      to_email: 'tikomyster20@gmail.com',
+      message: form.message,
+    },
+    'KLAZm7R3fEsYvWyeA',
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Thank you, I will get back to you as soon as possible.');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '', 
+      })
+    }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+
+      alert('Something went wrong.')
+    })
+}
 
 
   return (

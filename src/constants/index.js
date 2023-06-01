@@ -15,14 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    avas,
+    creative,
+    steph,
+    kaiser,
+    fithub,
     jobit,
-    tripguide,
+    dogs,
     threejs,
+    opl,
+    sportrait,
+    n_cdisney,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +119,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "3:5Creative[s]",
+      icon: creative,
+      iconBg: "#E6DEDD",
+      date: "April 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating new HTML templates, CSS stylesheets, Javascript code, and other programming languages as needed to support the functionality of the website being created.",
+        "Testing web pages for functionality and usability, including conducting user testing sessions with customers or clients.",
+        "Analyzing data to determine how effective certain marketing efforts have been in driving sales or increasing brand awareness.",
+        "Assisting developers in creating websites by performing tasks such as creating database structures and writing code.",
+        "Maintaining and updating existing websites by adding new content and deleting outdated content.",
+        "Working with designers to create graphics such as banners and logos for use in online advertising campaigns.",
+        "Communicating with teams of programmers, designers, marketers, and other staff members to coordinate the development of new projects.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Web Development Consulting",
+      company_name: "Steph Graham",
+      icon: steph,
+      iconBg: "#383E56",
+      date: "March 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assisted in implementing Afterpay into Squarespace website for the client.",
+        "Worked with inject coding through Squarepace to implement feature.",
+        "Worked with CSS and JavaScript coding to create functioning feature.",
+      ],
+    },
+    {
+      title: "Patient Access Specialist",
+      company_name: "Kaiser Permanente",
+      icon: kaiser,
+      iconBg: "#ffff",
+      date: "December 2017 - March 2023",
+      points: [
+        "Call Center Representative using Epic and open-source phone program.",
+        "Answered inbound calls for patients and scheduling for Primary Care.",
+        "Provided information on Home Health and Hospice, connected to nurses depending on symptoms/ concerns. Previously worked in Specialty Care.",
+        "Provided assistance as helpdesk support for Kp.org.",
+        "Handled 200 calls a day, multitasked programs during calls while meeting requirements of 2 minute phone calls."
+      ],
+    },
+    {
+      title: "Barista",
+      company_name: "Ava Roasteria",
+      icon: avas,
+      iconBg: "#ffff",
+      date: "April 2017 - November 2017",
+      points: [
+        "Provided excellent customer service.",
+        "Demonstrated a deep understanding of coffee beans and the process of creating drinks.",
+        "Communicated effectively and worked hard in a team environment.",
       ],
     },
   ];
@@ -172,38 +177,38 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Chris' help made it better to understand the issues I had and how to fix them. I'm content to have had his support.",
+      name: "Steph Graham",
+      designation: "CEO",
+      company: "ConsultStephGraham",
+      image: sportrait,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a developer who truly cares about their clients' like Chris does. I'm happy to know him as a friend and can't wait to see where the future takes him.",
+      name: "Kevin Nguyen",
+      designation: "Student",
+      company: "University of Washington",
+      image: "",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "His determination and hard work over performed my expectations, there is no limit for Chris. I hope to see him succeed further and accomplish his goals ahead.",
+      name: "Nancy Saechao",
+      designation: "Spouse",
+      company: "Chris.",
+      image: n_cdisney,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "fithub",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The motivation for this app is for all users to find a fitness program and exercise that they can use, whether they are at home or at the gym to meet their fitness goals.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -211,54 +216,75 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Express.JS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: fithub,
+      source_code_link: "https://github.com/TikoMyster/fithub",
     },
     {
-      name: "Job IT",
+      name: "Congrats Kevin",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is a static website made for a friend who got into college at this time. I wanted to add as much silly links and make the site dynamic and simple looking for my friend to enjoy.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS3",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TikoMyster/congrats-kevin",
     },
     {
-      name: "Trip Guide",
+      name: "Raining Cats and Dogs",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Raining Cats and Dogs is created to help pet owners find temporarily places for their pets to stay so that the owners can take their vacation in ease knowing that their pet will be taken care of while being away.",
       tags: [
         {
-          name: "nextjs",
+          name: "Node.JS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Express.JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dogs,
+      source_code_link: "https://github.com/TikoMyster/Raining-Cats-and-Dogs",
+    },
+    {
+      name: "Open PS2 Loader",
+      description:
+        "Open PS2 Loader (OPL) is a 100% Open source game and application loader for the PS2 and PS3 units. Assisted in minor adjustments to UI options for USB.",
+      tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Assembly",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Compatibility",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: opl,
+      source_code_link: "https://github.com/TikoMyster/Raining-Cats-and-Dogs",
     },
   ];
   

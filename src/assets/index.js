@@ -21,14 +21,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import avas from "./company/ava_roast.jpg";
+import kaiser from "./company/kp_logo.png";
+import creative from "./company/35symbol_logo.png";
+import steph from "./company/steph_graham.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import fithub from "./fithub.png";
+import jobit from "./kevin.png";
+import dogs from "./cats-and-dogs-login-demo.png";
+import opl from "./OPL logo v4.jpg";
+import sportrait from "./steph_portrait.png";
+import n_cdisney from "./n_c_disneyland.jpg";
 
 export {
   logo,
@@ -52,11 +55,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  avas,
+  kaiser,
+  creative,
+  steph,
+  fithub,
   jobit,
-  tripguide,
+  dogs,
+  opl,
+  sportrait,
+  n_cdisney,
 };

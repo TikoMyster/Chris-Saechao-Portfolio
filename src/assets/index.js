@@ -32,6 +32,8 @@ import dogs from "./cats-and-dogs-login-demo.png";
 import opl from "./OPL logo v4.jpg";
 import sportrait from "./steph_portrait.png";
 import n_cdisney from "./n_c_disneyland.jpg";
+import k_portrait from "./kevin_portrait2.jpg";
+import elf from "./ElvishFury.png";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   opl,
   sportrait,
   n_cdisney,
+  k_portrait,
+  elf,
 };

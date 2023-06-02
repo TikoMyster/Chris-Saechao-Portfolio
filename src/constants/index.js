@@ -26,6 +26,8 @@ import {
     opl,
     sportrait,
     n_cdisney,
+    k_portrait,
+    elf,
   } from "../assets";
   
   export const navLinks = [
@@ -189,11 +191,11 @@ import {
       name: "Kevin Nguyen",
       designation: "Student",
       company: "University of Washington",
-      image: "",
+      image: k_portrait,
     },
     {
       testimonial:
-        "His determination and hard work over performed my expectations, there is no limit for Chris. I hope to see him succeed further and accomplish his goals ahead.",
+        "His determination and hard work exceeded my expectations, there is no limit for Chris. I hope to see him succeed further and accomplish his goals ahead.",
       name: "Nancy Saechao",
       designation: "Spouse",
       company: "Chris.",
@@ -284,7 +286,28 @@ import {
         },
       ],
       image: opl,
-      source_code_link: "https://github.com/TikoMyster/Raining-Cats-and-Dogs",
+      source_code_link: "https://github.com/TikoMyster/Open-PS2-Loader",
+    },
+    {
+      name: "TBD",
+      description:
+        "Light Novel Video using the Renpy Game Engine, its a derivative of Python, and creating 3D models with DAZ Studio. The game is a fictional story where choices matter which is similar to the classic Choose Your Own Adventure books. ",
+      tags: [
+        {
+          name: "Renpy",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DAZ Studio",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: elf,
+      source_code_link: "https://github.com/TikoMyster",
     },
   ];
   
